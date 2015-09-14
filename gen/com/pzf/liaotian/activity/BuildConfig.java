@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.pzf.liaotian;
+package com.pzf.liaotian.activity;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

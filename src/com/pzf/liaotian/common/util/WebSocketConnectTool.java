@@ -43,10 +43,10 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.pzf.liaotian.MainWebViewActivity;
-import com.pzf.liaotian.ChatRoomActivity;
-import com.pzf.liaotian.UploadUtil;
-import com.pzf.liaotian.UploadUtil.MYTask;
+import com.pzf.liaotian.activity.ChatRoomActivity;
+import com.pzf.liaotian.activity.MainWebViewActivity;
+import com.pzf.liaotian.activity.UploadUtil;
+import com.pzf.liaotian.activity.UploadUtil.MYTask;
 import com.pzf.liaotian.adapter.MessageAdapter;
 import com.pzf.liaotian.app.PushApplication;
 import com.pzf.liaotian.bean.MessageItem;

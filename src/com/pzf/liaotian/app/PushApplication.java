@@ -15,8 +15,8 @@ import android.widget.RemoteViews;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.pzf.liaotian.MainViewActivity;
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
+import com.pzf.liaotian.activity.MainViewActivity;
 import com.pzf.liaotian.baidupush.client.PushMessageReceiver;
 import com.pzf.liaotian.baidupush.server.BaiduPush;
 import com.pzf.liaotian.common.util.SharePreferenceUtil;

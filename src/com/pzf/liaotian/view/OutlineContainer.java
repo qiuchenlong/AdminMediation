@@ -11,7 +11,7 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 
 public class OutlineContainer extends FrameLayout implements Animatable {

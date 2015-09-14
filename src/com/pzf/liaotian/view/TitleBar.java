@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 /**
  * @desc:titleBar

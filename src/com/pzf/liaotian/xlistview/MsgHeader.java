@@ -15,7 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 
 public class MsgHeader extends LinearLayout {

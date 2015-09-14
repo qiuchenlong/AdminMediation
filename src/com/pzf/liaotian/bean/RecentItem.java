@@ -1,6 +1,6 @@
 package com.pzf.liaotian.bean;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 /**
  * @desc:接收到的聊天数据消息

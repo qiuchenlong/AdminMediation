@@ -2,7 +2,7 @@ package com.huneng.fileexplorer;
 
 import java.io.File;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 import android.content.Intent;
 import android.net.Uri;

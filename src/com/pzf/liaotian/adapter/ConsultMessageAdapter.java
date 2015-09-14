@@ -33,10 +33,10 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.pzf.liaotian.MainViewActivity;
-import com.pzf.liaotian.WebViewActivity;
-import com.pzf.liaotian.ChatRoomActivity;
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
+import com.pzf.liaotian.activity.ChatRoomActivity;
+import com.pzf.liaotian.activity.MainViewActivity;
+import com.pzf.liaotian.activity.WebViewActivity;
 import com.pzf.liaotian.album.takephoto.BubbleImageHelper;
 import com.pzf.liaotian.album.takephoto.MessageBitmapCache;
 import com.pzf.liaotian.app.PushApplication;

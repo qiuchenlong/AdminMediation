@@ -1,4 +1,4 @@
-package com.pzf.liaotian;
+package com.pzf.liaotian.activity;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -76,10 +76,16 @@ import android.widget.Toast;
 
 import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
+import com.pzf.liaotian.activity.R;
 import com.pzf.liaotian.common.util.AudioRecorder2Mp3Util;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.huneng.fileexplorer.UploadView;
+import com.pzf.liaotian.activity.R.anim;
+import com.pzf.liaotian.activity.R.drawable;
+import com.pzf.liaotian.activity.R.id;
+import com.pzf.liaotian.activity.R.layout;
+import com.pzf.liaotian.activity.R.style;
 import com.pzf.liaotian.adapter.FaceAdapter;
 import com.pzf.liaotian.adapter.FacePageAdeapter;
 import com.pzf.liaotian.adapter.MessageAdapter;
@@ -446,10 +452,8 @@ public class ChatRoomActivity extends Activity implements OnClickListener,
 			public void onClick(View arg0) {
 				Intent intent = new Intent(ChatRoomActivity.this,UploadView.class);
 				startActivityForResult(intent, FILE_PATH);
-				
 			}
-		});
-        
+		});      
         
         //悄悄话
         private_chat_view = (RelativeLayout)findViewById(R.id.private_chat_view);      
@@ -1098,7 +1102,6 @@ public class ChatRoomActivity extends Activity implements OnClickListener,
         switch (requestCode) {
             case CAMERA_WITH_DATA:
                 hanlderTakePhotoData(data);
-               
                 break;
             case FILE_PATH:
             	String path = data.getStringExtra("FilePath");
@@ -1115,7 +1118,6 @@ public class ChatRoomActivity extends Activity implements OnClickListener,
                          MessageItem.MESSAGE_TYPE_FILE, mSpUtil.getNick(),
                          currentTime, msg, mSpUtil.getHeadIcon(),
                          false, 0, 0,mSpUtil.getIsPrivateChat(),isHide,0,MessageItem.NOT_SYSTEM_MESSAGE);
-
                  adapter.upDateMsg(item);
                  mMsgListView.setSelection(adapter.getCount() - 1);
                  mMsgDB.saveMsg(mSpUtil.getUserId(), item);// 消息保存数据库
@@ -1593,7 +1595,6 @@ public class ChatRoomActivity extends Activity implements OnClickListener,
            		loginContent, 0, true, 1,
                    0,0,0,0,MessageItem.SYSTEM_MESSAGE);
     	 adapter.upDateMsg(item);// 更新界面
-         mMsgDB.saveMsg(mSpUtil.getUserId(), item);// 保存数据库
-     	
+         mMsgDB.saveMsg(mSpUtil.getUserId(), item);// 保存数据库	
     }
 }

@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.baidu.android.itemview.BaseLinearLayout;
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 import com.pzf.liaotian.album.BitmapCache;
 import com.pzf.liaotian.album.BitmapCache.ImageCallback;
 import com.pzf.liaotian.bean.album.ImageBucket;

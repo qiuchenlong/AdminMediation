@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 import com.pzf.liaotian.app.PushApplication;
 
 /**

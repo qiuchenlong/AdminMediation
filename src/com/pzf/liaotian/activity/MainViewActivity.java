@@ -1,4 +1,4 @@
-package com.pzf.liaotian;
+package com.pzf.liaotian.activity;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -76,6 +76,10 @@ import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.pzf.liaotian.activity.R;
+import com.pzf.liaotian.activity.R.id;
+import com.pzf.liaotian.activity.R.layout;
+import com.pzf.liaotian.activity.R.style;
 import com.pzf.liaotian.adapter.FaceAdapter;
 import com.pzf.liaotian.adapter.FacePageAdeapter;
 import com.pzf.liaotian.adapter.MessageAdapter;

@@ -25,8 +25,8 @@ import android.widget.RelativeLayout;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-import com.pzf.liaotian.ChatRoomActivity;
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
+import com.pzf.liaotian.activity.ChatRoomActivity;
 import com.pzf.liaotian.common.util.TimeUtil;
 
 

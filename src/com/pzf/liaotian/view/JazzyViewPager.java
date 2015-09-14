@@ -18,7 +18,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.nineoldandroids.view.ViewHelper;
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 /**
  * @desc:表情用到的viewpager

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.pzf.liaotian;
+package com.pzf.liaotian.activity;
 
 public final class R {
     public static final class anim {
@@ -1434,13 +1434,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
            <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td> Orientation of the indicator.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_centered com.pzf.liaotian:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_fillColor com.pzf.liaotian:fillColor}</code></td><td> Color of the filled circle that represents the current page.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_pageColor com.pzf.liaotian:pageColor}</code></td><td> Color of the filled circles that represents pages.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_radius com.pzf.liaotian:radius}</code></td><td> Radius of the circles.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_snap com.pzf.liaotian:snap}</code></td><td> Whether or not the selected indicator snaps to the circles.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeColor com.pzf.liaotian:strokeColor}</code></td><td> Color of the open circles.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.pzf.liaotian:strokeWidth}</code></td><td> Width of the stroke used to draw the circles.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_centered com.pzf.liaotian.activity:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_fillColor com.pzf.liaotian.activity:fillColor}</code></td><td> Color of the filled circle that represents the current page.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_pageColor com.pzf.liaotian.activity:pageColor}</code></td><td> Color of the filled circles that represents pages.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_radius com.pzf.liaotian.activity:radius}</code></td><td> Radius of the circles.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_snap com.pzf.liaotian.activity:snap}</code></td><td> Whether or not the selected indicator snaps to the circles.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeColor com.pzf.liaotian.activity:strokeColor}</code></td><td> Color of the open circles.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.pzf.liaotian.activity:strokeWidth}</code></td><td> Width of the stroke used to draw the circles.</td></tr>
            </table>
            @see #CirclePageIndicator_android_background
            @see #CirclePageIndicator_android_orientation
@@ -1488,7 +1488,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:centered
+          @attr name com.pzf.liaotian.activity:centered
         */
         public static final int CirclePageIndicator_centered = 2;
         /**
@@ -1505,7 +1505,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:fillColor
+          @attr name com.pzf.liaotian.activity:fillColor
         */
         public static final int CirclePageIndicator_fillColor = 4;
         /**
@@ -1522,7 +1522,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:pageColor
+          @attr name com.pzf.liaotian.activity:pageColor
         */
         public static final int CirclePageIndicator_pageColor = 5;
         /**
@@ -1540,7 +1540,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:radius
+          @attr name com.pzf.liaotian.activity:radius
         */
         public static final int CirclePageIndicator_radius = 6;
         /**
@@ -1556,7 +1556,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:snap
+          @attr name com.pzf.liaotian.activity:snap
         */
         public static final int CirclePageIndicator_snap = 7;
         /**
@@ -1573,7 +1573,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:strokeColor
+          @attr name com.pzf.liaotian.activity:strokeColor
         */
         public static final int CirclePageIndicator_strokeColor = 8;
         /**
@@ -1591,7 +1591,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:strokeWidth
+          @attr name com.pzf.liaotian.activity:strokeWidth
         */
         public static final int CirclePageIndicator_strokeWidth = 3;
         /** Attributes that can be used with a JazzyViewPager.
@@ -1600,10 +1600,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #JazzyViewPager_fadeJazzEnabled com.pzf.liaotian:fadeJazzEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #JazzyViewPager_outlineColor com.pzf.liaotian:outlineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #JazzyViewPager_outlineEnabled com.pzf.liaotian:outlineEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #JazzyViewPager_style com.pzf.liaotian:style}</code></td><td></td></tr>
+           <tr><td><code>{@link #JazzyViewPager_fadeJazzEnabled com.pzf.liaotian.activity:fadeJazzEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #JazzyViewPager_outlineColor com.pzf.liaotian.activity:outlineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #JazzyViewPager_outlineEnabled com.pzf.liaotian.activity:outlineEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #JazzyViewPager_style com.pzf.liaotian.activity:style}</code></td><td></td></tr>
            </table>
            @see #JazzyViewPager_fadeJazzEnabled
            @see #JazzyViewPager_outlineColor
@@ -1614,7 +1614,7 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003
         };
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#fadeJazzEnabled}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#fadeJazzEnabled}
           attribute's value can be found in the {@link #JazzyViewPager} array.
 
 
@@ -1624,11 +1624,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:fadeJazzEnabled
+          @attr name com.pzf.liaotian.activity:fadeJazzEnabled
         */
         public static final int JazzyViewPager_fadeJazzEnabled = 1;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#outlineColor}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#outlineColor}
           attribute's value can be found in the {@link #JazzyViewPager} array.
 
 
@@ -1636,11 +1636,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.pzf.liaotian:outlineColor
+          @attr name com.pzf.liaotian.activity:outlineColor
         */
         public static final int JazzyViewPager_outlineColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#outlineEnabled}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#outlineEnabled}
           attribute's value can be found in the {@link #JazzyViewPager} array.
 
 
@@ -1650,11 +1650,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:outlineEnabled
+          @attr name com.pzf.liaotian.activity:outlineEnabled
         */
         public static final int JazzyViewPager_outlineEnabled = 2;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#style}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#style}
           attribute's value can be found in the {@link #JazzyViewPager} array.
 
 
@@ -1677,7 +1677,7 @@ containing a value of this type.
 <tr><td><code>rotatedown</code></td><td>10</td><td></td></tr>
 <tr><td><code>accordion</code></td><td>11</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:style
+          @attr name com.pzf.liaotian.activity:style
         */
         public static final int JazzyViewPager_style = 0;
         /** Attributes that can be used with a PullToRefresh.
@@ -1686,27 +1686,27 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAdapterViewBackground com.pzf.liaotian:ptrAdapterViewBackground}</code></td><td> BELOW HERE ARE DEPRECEATED.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAnimationStyle com.pzf.liaotian:ptrAnimationStyle}</code></td><td> Style of Animation should be used displayed when pulling.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawable com.pzf.liaotian:ptrDrawable}</code></td><td> Drawable to use as Loading Indicator.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableBottom com.pzf.liaotian:ptrDrawableBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableEnd com.pzf.liaotian:ptrDrawableEnd}</code></td><td> Drawable to use as Loading Indicator in the Footer View.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableStart com.pzf.liaotian:ptrDrawableStart}</code></td><td> Drawable to use as Loading Indicator in the Header View.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableTop com.pzf.liaotian:ptrDrawableTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.pzf.liaotian:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextColor com.pzf.liaotian:ptrHeaderSubTextColor}</code></td><td> Text Color of the Header and Footer Loading Views Sub Header </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextAppearance com.pzf.liaotian:ptrHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextColor com.pzf.liaotian:ptrHeaderTextColor}</code></td><td> Text Color of the Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrListViewExtrasEnabled com.pzf.liaotian:ptrListViewExtrasEnabled}</code></td><td>
+           <tr><td><code>{@link #PullToRefresh_ptrAdapterViewBackground com.pzf.liaotian.activity:ptrAdapterViewBackground}</code></td><td> BELOW HERE ARE DEPRECEATED.</td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrAnimationStyle com.pzf.liaotian.activity:ptrAnimationStyle}</code></td><td> Style of Animation should be used displayed when pulling.</td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawable com.pzf.liaotian.activity:ptrDrawable}</code></td><td> Drawable to use as Loading Indicator.</td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableBottom com.pzf.liaotian.activity:ptrDrawableBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableEnd com.pzf.liaotian.activity:ptrDrawableEnd}</code></td><td> Drawable to use as Loading Indicator in the Footer View.</td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableStart com.pzf.liaotian.activity:ptrDrawableStart}</code></td><td> Drawable to use as Loading Indicator in the Header View.</td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableTop com.pzf.liaotian.activity:ptrDrawableTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.pzf.liaotian.activity:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header and Footer Loading Views </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextColor com.pzf.liaotian.activity:ptrHeaderSubTextColor}</code></td><td> Text Color of the Header and Footer Loading Views Sub Header </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextAppearance com.pzf.liaotian.activity:ptrHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextColor com.pzf.liaotian.activity:ptrHeaderTextColor}</code></td><td> Text Color of the Header and Footer Loading Views </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrListViewExtrasEnabled com.pzf.liaotian.activity:ptrListViewExtrasEnabled}</code></td><td>
         	Whether PullToRefreshListView has it's extras enabled.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrMode com.pzf.liaotian:ptrMode}</code></td><td> Mode of Pull-to-Refresh that should be used </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrOverScroll com.pzf.liaotian:ptrOverScroll}</code></td><td> Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.pzf.liaotian:ptrRefreshableViewBackground}</code></td><td> A drawable to use as the background of the Refreshable View </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRotateDrawableWhilePulling com.pzf.liaotian:ptrRotateDrawableWhilePulling}</code></td><td>
+           <tr><td><code>{@link #PullToRefresh_ptrMode com.pzf.liaotian.activity:ptrMode}</code></td><td> Mode of Pull-to-Refresh that should be used </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrOverScroll com.pzf.liaotian.activity:ptrOverScroll}</code></td><td> Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh.</td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.pzf.liaotian.activity:ptrRefreshableViewBackground}</code></td><td> A drawable to use as the background of the Refreshable View </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrRotateDrawableWhilePulling com.pzf.liaotian.activity:ptrRotateDrawableWhilePulling}</code></td><td>
         	Whether the Drawable should be continually rotated as you pull.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrScrollingWhileRefreshingEnabled com.pzf.liaotian:ptrScrollingWhileRefreshingEnabled}</code></td><td> Whether the user can scroll while the View is Refreshing </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrShowIndicator com.pzf.liaotian:ptrShowIndicator}</code></td><td> Whether the Indicator overlay(s) should be used </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrSubHeaderTextAppearance com.pzf.liaotian:ptrSubHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrScrollingWhileRefreshingEnabled com.pzf.liaotian.activity:ptrScrollingWhileRefreshingEnabled}</code></td><td> Whether the user can scroll while the View is Refreshing </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrShowIndicator com.pzf.liaotian.activity:ptrShowIndicator}</code></td><td> Whether the Indicator overlay(s) should be used </td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrSubHeaderTextAppearance com.pzf.liaotian.activity:ptrSubHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header </td></tr>
            </table>
            @see #PullToRefresh_ptrAdapterViewBackground
            @see #PullToRefresh_ptrAnimationStyle
@@ -1746,7 +1746,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrAdapterViewBackground
+          @attr name com.pzf.liaotian.activity:ptrAdapterViewBackground
         */
         public static final int PullToRefresh_ptrAdapterViewBackground = 16;
         /**
@@ -1765,7 +1765,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrAnimationStyle
+          @attr name com.pzf.liaotian.activity:ptrAnimationStyle
         */
         public static final int PullToRefresh_ptrAnimationStyle = 12;
         /**
@@ -1777,17 +1777,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrDrawable
+          @attr name com.pzf.liaotian.activity:ptrDrawable
         */
         public static final int PullToRefresh_ptrDrawable = 6;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#ptrDrawableBottom}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#ptrDrawableBottom}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:ptrDrawableBottom
+          @attr name com.pzf.liaotian.activity:ptrDrawableBottom
         */
         public static final int PullToRefresh_ptrDrawableBottom = 18;
         /**
@@ -1799,7 +1799,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrDrawableEnd
+          @attr name com.pzf.liaotian.activity:ptrDrawableEnd
         */
         public static final int PullToRefresh_ptrDrawableEnd = 8;
         /**
@@ -1811,17 +1811,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrDrawableStart
+          @attr name com.pzf.liaotian.activity:ptrDrawableStart
         */
         public static final int PullToRefresh_ptrDrawableStart = 7;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#ptrDrawableTop}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#ptrDrawableTop}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:ptrDrawableTop
+          @attr name com.pzf.liaotian.activity:ptrDrawableTop
         */
         public static final int PullToRefresh_ptrDrawableTop = 17;
         /**
@@ -1835,7 +1835,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrHeaderBackground
+          @attr name com.pzf.liaotian.activity:ptrHeaderBackground
         */
         public static final int PullToRefresh_ptrHeaderBackground = 1;
         /**
@@ -1849,7 +1849,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrHeaderSubTextColor
+          @attr name com.pzf.liaotian.activity:ptrHeaderSubTextColor
         */
         public static final int PullToRefresh_ptrHeaderSubTextColor = 3;
         /**
@@ -1861,7 +1861,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrHeaderTextAppearance
+          @attr name com.pzf.liaotian.activity:ptrHeaderTextAppearance
         */
         public static final int PullToRefresh_ptrHeaderTextAppearance = 10;
         /**
@@ -1875,7 +1875,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrHeaderTextColor
+          @attr name com.pzf.liaotian.activity:ptrHeaderTextColor
         */
         public static final int PullToRefresh_ptrHeaderTextColor = 2;
         /**
@@ -1892,7 +1892,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrListViewExtrasEnabled
+          @attr name com.pzf.liaotian.activity:ptrListViewExtrasEnabled
         */
         public static final int PullToRefresh_ptrListViewExtrasEnabled = 14;
         /**
@@ -1916,7 +1916,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrMode
+          @attr name com.pzf.liaotian.activity:ptrMode
         */
         public static final int PullToRefresh_ptrMode = 4;
         /**
@@ -1929,7 +1929,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrOverScroll
+          @attr name com.pzf.liaotian.activity:ptrOverScroll
         */
         public static final int PullToRefresh_ptrOverScroll = 9;
         /**
@@ -1943,7 +1943,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrRefreshableViewBackground
+          @attr name com.pzf.liaotian.activity:ptrRefreshableViewBackground
         */
         public static final int PullToRefresh_ptrRefreshableViewBackground = 0;
         /**
@@ -1959,7 +1959,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrRotateDrawableWhilePulling
+          @attr name com.pzf.liaotian.activity:ptrRotateDrawableWhilePulling
         */
         public static final int PullToRefresh_ptrRotateDrawableWhilePulling = 15;
         /**
@@ -1972,7 +1972,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrScrollingWhileRefreshingEnabled
+          @attr name com.pzf.liaotian.activity:ptrScrollingWhileRefreshingEnabled
         */
         public static final int PullToRefresh_ptrScrollingWhileRefreshingEnabled = 13;
         /**
@@ -1985,7 +1985,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrShowIndicator
+          @attr name com.pzf.liaotian.activity:ptrShowIndicator
         */
         public static final int PullToRefresh_ptrShowIndicator = 5;
         /**
@@ -1997,7 +1997,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:ptrSubHeaderTextAppearance
+          @attr name com.pzf.liaotian.activity:ptrSubHeaderTextAppearance
         */
         public static final int PullToRefresh_ptrSubHeaderTextAppearance = 11;
         /**  SlidingLayer 
@@ -2006,10 +2006,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SlidingLayer_close_on_tapEnabled com.pzf.liaotian:close_on_tapEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingLayer_shadow_drawable com.pzf.liaotian:shadow_drawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingLayer_shadow_width com.pzf.liaotian:shadow_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingLayer_stickTo com.pzf.liaotian:stickTo}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingLayer_close_on_tapEnabled com.pzf.liaotian.activity:close_on_tapEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingLayer_shadow_drawable com.pzf.liaotian.activity:shadow_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingLayer_shadow_width com.pzf.liaotian.activity:shadow_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingLayer_stickTo com.pzf.liaotian.activity:stickTo}</code></td><td></td></tr>
            </table>
            @see #SlidingLayer_close_on_tapEnabled
            @see #SlidingLayer_shadow_drawable
@@ -2020,7 +2020,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024
         };
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#close_on_tapEnabled}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#close_on_tapEnabled}
           attribute's value can be found in the {@link #SlidingLayer} array.
 
 
@@ -2030,11 +2030,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:close_on_tapEnabled
+          @attr name com.pzf.liaotian.activity:close_on_tapEnabled
         */
         public static final int SlidingLayer_close_on_tapEnabled = 2;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#shadow_drawable}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#shadow_drawable}
           attribute's value can be found in the {@link #SlidingLayer} array.
 
 
@@ -2044,11 +2044,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:shadow_drawable
+          @attr name com.pzf.liaotian.activity:shadow_drawable
         */
         public static final int SlidingLayer_shadow_drawable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#shadow_width}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#shadow_width}
           attribute's value can be found in the {@link #SlidingLayer} array.
 
 
@@ -2060,11 +2060,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:shadow_width
+          @attr name com.pzf.liaotian.activity:shadow_width
         */
         public static final int SlidingLayer_shadow_width = 1;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#stickTo}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#stickTo}
           attribute's value can be found in the {@link #SlidingLayer} array.
 
 
@@ -2079,7 +2079,7 @@ containing a value of this type.
 <tr><td><code>left</code></td><td>-2</td><td></td></tr>
 <tr><td><code>middle</code></td><td>-3</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:stickTo
+          @attr name com.pzf.liaotian.activity:stickTo
         */
         public static final int SlidingLayer_stickTo = 3;
         /**  SlidingMenu 
@@ -2088,20 +2088,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SlidingMenu_behindOffset com.pzf.liaotian:behindOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindScrollScale com.pzf.liaotian:behindScrollScale}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindWidth com.pzf.liaotian:behindWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeDegree com.pzf.liaotian:fadeDegree}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeEnabled com.pzf.liaotian:fadeEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_mode com.pzf.liaotian:mode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorDrawable com.pzf.liaotian:selectorDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorEnabled com.pzf.liaotian:selectorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowDrawable com.pzf.liaotian:shadowDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowWidth com.pzf.liaotian:shadowWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeAbove com.pzf.liaotian:touchModeAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeBehind com.pzf.liaotian:touchModeBehind}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewAbove com.pzf.liaotian:viewAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewBehind com.pzf.liaotian:viewBehind}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindOffset com.pzf.liaotian.activity:behindOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindScrollScale com.pzf.liaotian.activity:behindScrollScale}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindWidth com.pzf.liaotian.activity:behindWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeDegree com.pzf.liaotian.activity:fadeDegree}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeEnabled com.pzf.liaotian.activity:fadeEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_mode com.pzf.liaotian.activity:mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorDrawable com.pzf.liaotian.activity:selectorDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorEnabled com.pzf.liaotian.activity:selectorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowDrawable com.pzf.liaotian.activity:shadowDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowWidth com.pzf.liaotian.activity:shadowWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeAbove com.pzf.liaotian.activity:touchModeAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeBehind com.pzf.liaotian.activity:touchModeBehind}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewAbove com.pzf.liaotian.activity:viewAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewBehind com.pzf.liaotian.activity:viewBehind}</code></td><td></td></tr>
            </table>
            @see #SlidingMenu_behindOffset
            @see #SlidingMenu_behindScrollScale
@@ -2125,7 +2125,7 @@ containing a value of this type.
             0x7f01001f, 0x7f010020
         };
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#behindOffset}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#behindOffset}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2137,11 +2137,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:behindOffset
+          @attr name com.pzf.liaotian.activity:behindOffset
         */
         public static final int SlidingMenu_behindOffset = 3;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#behindScrollScale}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#behindScrollScale}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2151,11 +2151,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:behindScrollScale
+          @attr name com.pzf.liaotian.activity:behindScrollScale
         */
         public static final int SlidingMenu_behindScrollScale = 5;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#behindWidth}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#behindWidth}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2167,11 +2167,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:behindWidth
+          @attr name com.pzf.liaotian.activity:behindWidth
         */
         public static final int SlidingMenu_behindWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#fadeDegree}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#fadeDegree}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2181,11 +2181,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:fadeDegree
+          @attr name com.pzf.liaotian.activity:fadeDegree
         */
         public static final int SlidingMenu_fadeDegree = 11;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#fadeEnabled}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#fadeEnabled}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2195,11 +2195,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:fadeEnabled
+          @attr name com.pzf.liaotian.activity:fadeEnabled
         */
         public static final int SlidingMenu_fadeEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#mode}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#mode}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2212,21 +2212,21 @@ containing a value of this type.
 <tr><td><code>left</code></td><td>0</td><td></td></tr>
 <tr><td><code>right</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:mode
+          @attr name com.pzf.liaotian.activity:mode
         */
         public static final int SlidingMenu_mode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#selectorDrawable}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#selectorDrawable}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:selectorDrawable
+          @attr name com.pzf.liaotian.activity:selectorDrawable
         */
         public static final int SlidingMenu_selectorDrawable = 13;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#selectorEnabled}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#selectorEnabled}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2236,21 +2236,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:selectorEnabled
+          @attr name com.pzf.liaotian.activity:selectorEnabled
         */
         public static final int SlidingMenu_selectorEnabled = 12;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#shadowDrawable}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#shadowDrawable}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:shadowDrawable
+          @attr name com.pzf.liaotian.activity:shadowDrawable
         */
         public static final int SlidingMenu_shadowDrawable = 8;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#shadowWidth}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#shadowWidth}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2262,11 +2262,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:shadowWidth
+          @attr name com.pzf.liaotian.activity:shadowWidth
         */
         public static final int SlidingMenu_shadowWidth = 9;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#touchModeAbove}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#touchModeAbove}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2279,11 +2279,11 @@ containing a value of this type.
 <tr><td><code>margin</code></td><td>0</td><td></td></tr>
 <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:touchModeAbove
+          @attr name com.pzf.liaotian.activity:touchModeAbove
         */
         public static final int SlidingMenu_touchModeAbove = 6;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#touchModeBehind}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#touchModeBehind}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
@@ -2296,27 +2296,27 @@ containing a value of this type.
 <tr><td><code>margin</code></td><td>0</td><td></td></tr>
 <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:touchModeBehind
+          @attr name com.pzf.liaotian.activity:touchModeBehind
         */
         public static final int SlidingMenu_touchModeBehind = 7;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#viewAbove}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#viewAbove}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:viewAbove
+          @attr name com.pzf.liaotian.activity:viewAbove
         */
         public static final int SlidingMenu_viewAbove = 1;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#viewBehind}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#viewBehind}
           attribute's value can be found in the {@link #SlidingMenu} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:viewBehind
+          @attr name com.pzf.liaotian.activity:viewBehind
         */
         public static final int SlidingMenu_viewBehind = 2;
         /**  SwipeBackLayout 
@@ -2325,11 +2325,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SwipeBackLayout_edge_flag com.pzf.liaotian:edge_flag}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeBackLayout_edge_size com.pzf.liaotian:edge_size}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeBackLayout_shadow_bottom com.pzf.liaotian:shadow_bottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeBackLayout_shadow_left com.pzf.liaotian:shadow_left}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeBackLayout_shadow_right com.pzf.liaotian:shadow_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_edge_flag com.pzf.liaotian.activity:edge_flag}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_edge_size com.pzf.liaotian.activity:edge_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_bottom com.pzf.liaotian.activity:shadow_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_left com.pzf.liaotian.activity:shadow_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_right com.pzf.liaotian.activity:shadow_right}</code></td><td></td></tr>
            </table>
            @see #SwipeBackLayout_edge_flag
            @see #SwipeBackLayout_edge_size
@@ -2342,7 +2342,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010046
         };
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#edge_flag}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#edge_flag}
           attribute's value can be found in the {@link #SwipeBackLayout} array.
 
 
@@ -2357,11 +2357,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>bottom</code></td><td>2</td><td></td></tr>
 <tr><td><code>all</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:edge_flag
+          @attr name com.pzf.liaotian.activity:edge_flag
         */
         public static final int SwipeBackLayout_edge_flag = 1;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#edge_size}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#edge_size}
           attribute's value can be found in the {@link #SwipeBackLayout} array.
 
 
@@ -2373,37 +2373,37 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:edge_size
+          @attr name com.pzf.liaotian.activity:edge_size
         */
         public static final int SwipeBackLayout_edge_size = 0;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#shadow_bottom}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#shadow_bottom}
           attribute's value can be found in the {@link #SwipeBackLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:shadow_bottom
+          @attr name com.pzf.liaotian.activity:shadow_bottom
         */
         public static final int SwipeBackLayout_shadow_bottom = 4;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#shadow_left}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#shadow_left}
           attribute's value can be found in the {@link #SwipeBackLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:shadow_left
+          @attr name com.pzf.liaotian.activity:shadow_left
         */
         public static final int SwipeBackLayout_shadow_left = 2;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#shadow_right}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#shadow_right}
           attribute's value can be found in the {@link #SwipeBackLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:shadow_right
+          @attr name com.pzf.liaotian.activity:shadow_right
         */
         public static final int SwipeBackLayout_shadow_right = 3;
         /**  swipe listview 
@@ -2412,16 +2412,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SwipeListView_swipeActionLeft com.pzf.liaotian:swipeActionLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeActionRight com.pzf.liaotian:swipeActionRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeAnimationTime com.pzf.liaotian:swipeAnimationTime}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeBackView com.pzf.liaotian:swipeBackView}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeCloseAllItemsWhenMoveList com.pzf.liaotian:swipeCloseAllItemsWhenMoveList}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeFrontView com.pzf.liaotian:swipeFrontView}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeMode com.pzf.liaotian:swipeMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeOffsetLeft com.pzf.liaotian:swipeOffsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeOffsetRight com.pzf.liaotian:swipeOffsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeOpenOnLongPress com.pzf.liaotian:swipeOpenOnLongPress}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeActionLeft com.pzf.liaotian.activity:swipeActionLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeActionRight com.pzf.liaotian.activity:swipeActionRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeAnimationTime com.pzf.liaotian.activity:swipeAnimationTime}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeBackView com.pzf.liaotian.activity:swipeBackView}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeCloseAllItemsWhenMoveList com.pzf.liaotian.activity:swipeCloseAllItemsWhenMoveList}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeFrontView com.pzf.liaotian.activity:swipeFrontView}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeMode com.pzf.liaotian.activity:swipeMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeOffsetLeft com.pzf.liaotian.activity:swipeOffsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeOffsetRight com.pzf.liaotian.activity:swipeOffsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeListView_swipeOpenOnLongPress com.pzf.liaotian.activity:swipeOpenOnLongPress}</code></td><td></td></tr>
            </table>
            @see #SwipeListView_swipeActionLeft
            @see #SwipeListView_swipeActionRight
@@ -2440,7 +2440,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01002d, 0x7f01002e
         };
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeActionLeft}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeActionLeft}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2453,11 +2453,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>reveal</code></td><td>0</td><td></td></tr>
 <tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:swipeActionLeft
+          @attr name com.pzf.liaotian.activity:swipeActionLeft
         */
         public static final int SwipeListView_swipeActionLeft = 8;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeActionRight}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeActionRight}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2470,11 +2470,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>reveal</code></td><td>0</td><td></td></tr>
 <tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:swipeActionRight
+          @attr name com.pzf.liaotian.activity:swipeActionRight
         */
         public static final int SwipeListView_swipeActionRight = 9;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeAnimationTime}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeAnimationTime}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2484,21 +2484,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:swipeAnimationTime
+          @attr name com.pzf.liaotian.activity:swipeAnimationTime
         */
         public static final int SwipeListView_swipeAnimationTime = 1;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeBackView}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeBackView}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:swipeBackView
+          @attr name com.pzf.liaotian.activity:swipeBackView
         */
         public static final int SwipeListView_swipeBackView = 6;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeCloseAllItemsWhenMoveList}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeCloseAllItemsWhenMoveList}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2508,21 +2508,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:swipeCloseAllItemsWhenMoveList
+          @attr name com.pzf.liaotian.activity:swipeCloseAllItemsWhenMoveList
         */
         public static final int SwipeListView_swipeCloseAllItemsWhenMoveList = 4;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeFrontView}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeFrontView}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.pzf.liaotian:swipeFrontView
+          @attr name com.pzf.liaotian.activity:swipeFrontView
         */
         public static final int SwipeListView_swipeFrontView = 5;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeMode}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeMode}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2537,11 +2537,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>right</code></td><td>2</td><td></td></tr>
 <tr><td><code>left</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.pzf.liaotian:swipeMode
+          @attr name com.pzf.liaotian.activity:swipeMode
         */
         public static final int SwipeListView_swipeMode = 7;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeOffsetLeft}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeOffsetLeft}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2553,11 +2553,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:swipeOffsetLeft
+          @attr name com.pzf.liaotian.activity:swipeOffsetLeft
         */
         public static final int SwipeListView_swipeOffsetLeft = 2;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeOffsetRight}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeOffsetRight}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2569,11 +2569,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:swipeOffsetRight
+          @attr name com.pzf.liaotian.activity:swipeOffsetRight
         */
         public static final int SwipeListView_swipeOffsetRight = 3;
         /**
-          <p>This symbol is the offset where the {@link com.pzf.liaotian.R.attr#swipeOpenOnLongPress}
+          <p>This symbol is the offset where the {@link com.pzf.liaotian.activity.R.attr#swipeOpenOnLongPress}
           attribute's value can be found in the {@link #SwipeListView} array.
 
 
@@ -2583,7 +2583,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.pzf.liaotian:swipeOpenOnLongPress
+          @attr name com.pzf.liaotian.activity:swipeOpenOnLongPress
         */
         public static final int SwipeListView_swipeOpenOnLongPress = 0;
         /** Attributes that can be used with a ViewPagerIndicator.
@@ -2592,12 +2592,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.pzf.liaotian:vpiCirclePageIndicatorStyle}</code></td><td> Style of the circle indicator.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.pzf.liaotian:vpiIconPageIndicatorStyle}</code></td><td> Style of the icon indicator's views.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.pzf.liaotian:vpiLinePageIndicatorStyle}</code></td><td> Style of the line indicator.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.pzf.liaotian:vpiTabPageIndicatorStyle}</code></td><td> Style of the tab indicator's tabs.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.pzf.liaotian:vpiTitlePageIndicatorStyle}</code></td><td> Style of the title indicator.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.pzf.liaotian:vpiUnderlinePageIndicatorStyle}</code></td><td> Style of the underline indicator.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.pzf.liaotian.activity:vpiCirclePageIndicatorStyle}</code></td><td> Style of the circle indicator.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.pzf.liaotian.activity:vpiIconPageIndicatorStyle}</code></td><td> Style of the icon indicator's views.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.pzf.liaotian.activity:vpiLinePageIndicatorStyle}</code></td><td> Style of the line indicator.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.pzf.liaotian.activity:vpiTabPageIndicatorStyle}</code></td><td> Style of the tab indicator's tabs.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.pzf.liaotian.activity:vpiTitlePageIndicatorStyle}</code></td><td> Style of the title indicator.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.pzf.liaotian.activity:vpiUnderlinePageIndicatorStyle}</code></td><td> Style of the underline indicator.</td></tr>
            </table>
            @see #ViewPagerIndicator_vpiCirclePageIndicatorStyle
            @see #ViewPagerIndicator_vpiIconPageIndicatorStyle
@@ -2619,7 +2619,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:vpiCirclePageIndicatorStyle
+          @attr name com.pzf.liaotian.activity:vpiCirclePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
         /**
@@ -2631,7 +2631,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:vpiIconPageIndicatorStyle
+          @attr name com.pzf.liaotian.activity:vpiIconPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle = 1;
         /**
@@ -2643,7 +2643,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:vpiLinePageIndicatorStyle
+          @attr name com.pzf.liaotian.activity:vpiLinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle = 2;
         /**
@@ -2655,7 +2655,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:vpiTabPageIndicatorStyle
+          @attr name com.pzf.liaotian.activity:vpiTabPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 4;
         /**
@@ -2667,7 +2667,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:vpiTitlePageIndicatorStyle
+          @attr name com.pzf.liaotian.activity:vpiTitlePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle = 3;
         /**
@@ -2679,7 +2679,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.pzf.liaotian:vpiUnderlinePageIndicatorStyle
+          @attr name com.pzf.liaotian.activity:vpiUnderlinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = 5;
     };

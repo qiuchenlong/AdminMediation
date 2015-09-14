@@ -1,4 +1,7 @@
-package com.pzf.liaotian;
+package com.pzf.liaotian.activity;
+
+import com.pzf.liaotian.activity.R;
+import com.pzf.liaotian.activity.R.drawable;
 
 import net.bither.util.ImageShower;
 import android.graphics.Bitmap;

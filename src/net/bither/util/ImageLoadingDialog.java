@@ -1,7 +1,7 @@
 package net.bither.util;
 
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 import android.app.Dialog;
 import android.content.Context;

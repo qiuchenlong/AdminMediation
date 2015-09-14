@@ -3,7 +3,7 @@ package com.huneng.fileexplorer;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 import android.content.Context;
 import android.graphics.Color;

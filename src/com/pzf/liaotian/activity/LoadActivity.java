@@ -1,8 +1,11 @@
-package com.pzf.liaotian;
+package com.pzf.liaotian.activity;
 
 import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import com.pzf.liaotian.activity.R;
+import com.pzf.liaotian.activity.R.layout;
 
 import android.app.Activity;
 import android.content.Context;

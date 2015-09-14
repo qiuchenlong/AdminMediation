@@ -12,7 +12,7 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ImageSpan;
 
-import com.pzf.liaotian.R;
+import com.pzf.liaotian.activity.R;
 
 /**
  * @desc: gif动画处字符串处理类
